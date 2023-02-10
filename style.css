@@ -90,6 +90,7 @@ h2{
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: justify;
 }
 
 .about_img--wrapper{
@@ -133,6 +134,7 @@ form{
     max-width: 600px;
     display: flex;
     flex-direction: column;
+    margin: 0 24px;
 }
 
 input, textarea{
@@ -190,6 +192,40 @@ footer{
         max-width: 240px;
     }
 
+    ul{
+        display: none;
+    }
 
+    .section_description{
+        flex-direction: column;
+    }
+
+    .sectiopn_description--wrapper{
+        width: 100%;
+    }
+
+    .about_img--wrapper{
+        width: 100%;
+    }
+
+    #discord .section_description{
+        flex-direction: column-reverse;
+    }
+
+    .footer{
+        padding: 48px 24px;
+    }
+
+    .footer_logo{
+        max-width: 360px;
+    }
+
+    .footer_link{
+        padding: 0 4px;
+        font-size: 18px;
+    }
+
+    .footer_links{
+        margin-bottom: 24px;
+    }
 }
-
